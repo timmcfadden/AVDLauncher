@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchAVDPDF", "LaunchAVDPDF\LaunchAVDPDF.csproj", "{C0EEC801-00B1-480E-B137-A46DE2114D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPDF", "LaunchPDF\LaunchPDF.csproj", "{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0EEC801-00B1-480E-B137-A46DE2114D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EEC801-00B1-480E-B137-A46DE2114D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EEC801-00B1-480E-B137-A46DE2114D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EEC801-00B1-480E-B137-A46DE2114D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3155C3E-E3AE-40A0-8F86-DF12CAC440C5}
+	EndGlobalSection
+EndGlobal

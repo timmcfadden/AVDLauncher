@@ -1,0 +1,13 @@
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.csproj.CoreCompileInputs.cache
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.exe.config
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.exe
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.pdb
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.exe
+C:\Users\timot\source\repos\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.pdb
+C:\GitHub\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.exe.config
+C:\GitHub\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.exe
+C:\GitHub\LaunchAVDPDF\LaunchPDF\bin\Debug\LaunchPDF.pdb
+C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.csproj.AssemblyReference.cache
+C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.csproj.CoreCompileInputs.cache
+C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.exe
+C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.pdb
