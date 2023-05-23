@@ -11,3 +11,10 @@ C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.csproj.AssemblyReference.ca
 C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.csproj.CoreCompileInputs.cache
 C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.exe
 C:\GitHub\LaunchAVDPDF\LaunchPDF\obj\Debug\LaunchPDF.pdb
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchPDF.csproj.CoreCompileInputs.cache
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.exe.config
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.exe
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.pdb
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.exe
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.pdb
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchPDF.csproj.AssemblyReference.cache

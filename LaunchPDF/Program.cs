@@ -14,8 +14,7 @@ namespace LaunchPDF
     {
         static void Main(string[] args)
         {
-            try
-            {
+
                 if (args.Length == 0)
                 {
                     Console.WriteLine("No file path provided.");
@@ -60,33 +59,41 @@ namespace LaunchPDF
 
                     string workspaceId = ConfigurationManager.AppSettings["workspaceId"];
                     string resourceId = ConfigurationManager.AppSettings["resourceId"];
-                    string username = ConfigurationManager.AppSettings["username"];
+                    string domainName = ConfigurationManager.AppSettings["domainName"];
 
-                    string uri = $"ms-avd:connect?workspaceId={workspaceId}&resourceid={resourceId}&username={username}&version=0";
+                    string domainUser = Environment.UserName;
 
-                    try
+                    string[] splitDomainUser = domainUser.Split('\\');
+
+                    // Get the username part
+                    string username;
+                    if (splitDomainUser.Length > 1)
                     {
+                        username = splitDomainUser[1];
+                    }
+                    else
+                    {
+                        throw new Exception("Username is not found");
+                    }
+
+                    string newUser = username + "@" + domainName;
+
+                    string uri = $"ms-avd:connect?workspaceId={workspaceId}&resourceid={resourceId}&username={newUser}&version=0";
+
+
                         Process.Start(new ProcessStartInfo
                         {
                             FileName = uri,
                             UseShellExecute = true // Use the operating system shell to start the process
                         });
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Failed to open the URI: {ex.Message}");
-                    }
+
 
                 }
                 else
                 {
-                    Console.WriteLine($"PDF file not found at: {destinationFilePath}");
+                    Console.WriteLine($"SAP file not found at: {destinationFilePath}");
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+
 
         }
     }

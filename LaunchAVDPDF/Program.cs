@@ -24,14 +24,14 @@ namespace LaunchAVDPDF
                 }
 
                 // Get all PDF files in the directory and order them by the last write time (descending)
-                var pdfFiles = Directory.GetFiles(destinationDirectory, "*.pdf")
+                var pdfFiles = Directory.GetFiles(destinationDirectory, "*.sap")
                     .Select(f => new FileInfo(f))
                     .OrderByDescending(fi => fi.LastWriteTime)
                     .ToList();
 
                 if (pdfFiles.Count == 0)
                 {
-                    Console.WriteLine("No PDF files were found in the specified directory.");
+                    Console.WriteLine("No SAP files were found in the specified directory.");
                     return;
                 }
 
@@ -42,11 +42,11 @@ namespace LaunchAVDPDF
                 {
                     // Open the PDF file with the default PDF viewer
                     Process.Start(new ProcessStartInfo(latestPdf.FullName) { UseShellExecute = true });
-                    Console.WriteLine($"Opened the latest PDF file: {latestPdf.FullName}");
+                    Console.WriteLine($"Opened the latest SAP file: {latestPdf.FullName}");
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Error opening the PDF file: {ex.Message}");
+                    Console.WriteLine($"Error opening the SAP file: {ex.Message}");
                 }
 
         }

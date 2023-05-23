@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LaunchPDF</RootNamespace>
-    <AssemblyName>LaunchPDF</AssemblyName>
+    <RootNamespace>LaunchSAP</RootNamespace>
+    <AssemblyName>LaunchSAP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
