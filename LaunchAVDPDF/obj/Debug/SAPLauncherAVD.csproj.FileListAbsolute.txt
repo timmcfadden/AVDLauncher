@@ -4,4 +4,3 @@ C:\GitHub\AVDLauncher\LaunchAVDPDF\bin\Debug\SAPLauncherAVD.pdb
 C:\GitHub\AVDLauncher\LaunchAVDPDF\obj\Debug\SAPLauncherAVD.csproj.CoreCompileInputs.cache
 C:\GitHub\AVDLauncher\LaunchAVDPDF\obj\Debug\SAPLauncherAVD.exe
 C:\GitHub\AVDLauncher\LaunchAVDPDF\obj\Debug\SAPLauncherAVD.pdb
-C:\GitHub\AVDLauncher\LaunchAVDPDF\obj\Debug\SAPLauncherAVD.csproj.AssemblyReference.cache

@@ -65,23 +65,30 @@ namespace LaunchPDF
 
                     string[] splitDomainUser = domainUser.Split('\\');
 
-                    // Get the username part
-                    string username;
+                Console.WriteLine(domainUser);
+
+
+                // Get the username part
+                string username;
                     if (splitDomainUser.Length > 1)
                     {
                         username = splitDomainUser[1];
                     }
                     else
                     {
-                        throw new Exception("Username is not found");
+                        username = splitDomainUser[0];
                     }
 
-                    string newUser = username + "@" + domainName;
-
-                    string uri = $"ms-avd:connect?workspaceId={workspaceId}&resourceid={resourceId}&username={newUser}&version=0";
+                // Combine the username with the new domain
 
 
-                        Process.Start(new ProcessStartInfo
+                string newUser = username + domainName;
+
+                string uri = $"ms-avd:connect?workspaceId={workspaceId}&resourceid={resourceId}&username={newUser}&version=0";
+
+                Console.WriteLine(uri);
+
+                Process.Start(new ProcessStartInfo
                         {
                             FileName = uri,
                             UseShellExecute = true // Use the operating system shell to start the process
@@ -91,7 +98,7 @@ namespace LaunchPDF
                 }
                 else
                 {
-                    Console.WriteLine($"SAP file not found at: {destinationFilePath}");
+                    Console.WriteLine($"PDF file not found at: {destinationFilePath}");
                 }
 
 
