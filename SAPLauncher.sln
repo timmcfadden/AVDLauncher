@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPLauncherAVD", "LaunchAVDPDF\SAPLauncherAVD.csproj", "{C0EEC801-00B1-480E-B137-A46DE2114D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPDF", "LaunchPDF\LaunchPDF.csproj", "{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchSAP", "LaunchPDF\LaunchSAP.csproj", "{EFBB2C20-0A4F-4FBA-9CE1-57A729FB8E7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,7 @@
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.exe.config
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.exe
+C:\GitHub\AVDLauncher\LaunchPDF\bin\Debug\LaunchSAP.pdb
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.csproj.AssemblyReference.cache
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.csproj.CoreCompileInputs.cache
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.exe
+C:\GitHub\AVDLauncher\LaunchPDF\obj\Debug\LaunchSAP.pdb
